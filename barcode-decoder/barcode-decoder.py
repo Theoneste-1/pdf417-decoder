@@ -3,6 +3,10 @@ Universal Barcode Decoder
 Decodes all barcode types including EAN-13
 """
 
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import cv2
 from pyzbar.pyzbar import decode
 import os
